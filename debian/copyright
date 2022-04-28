@@ -1,0 +1,48 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mod_oauth2
+Upstream-Contact: Hans Zandbelt <hans.zandbelt@zmartzone.eu>
+Source: https://github.com/zmartzone/mod_oauth2
+
+Files: *
+Copyright: 2013-2017 Hans Zandbelt <hzandbelt@pingidentity.com>
+  2017-2020 Hans Zandbelt <hans.zandbelt@zmartzone.eu>
+License: Apache-2.0
+
+Files: src/pcre_subst.c
+ src/pcre_subst.h
+Copyright: 2000, Bert Driehuis <driehuis@playbeing.org>
+License: PCRE
+ Permission is granted to anyone to use this software for any purpose on any
+ computer system, and to redistribute it freely, subject to the following
+ restrictions:
+ 1. This software is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ 2. The origin of this software must not be misrepresented, either by
+    explicit claim or by omission.
+ 3. Altered versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 4. If PCRE is embedded in any software that is released under the GNU
+    General Purpose Licence (GPL), then the terms of that licence shall
+    supersede any condition above with which it is incompatible.
+
+Files: debian/*
+Copyright: 2014-2016 Hans Zandbelt <hzandbelt@pingidentity.com>
+  2022 Arvid Requate <requate@univention.de>
+License: Apache-2.0
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+     http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache License 2.0 can
+ be found in "/usr/share/common-licenses/Apache-2.0"

@@ -1,0 +1,11 @@
+libapache2-mod-oauth2 (3.2.2-2) unstable; urgency=medium
+
+  * Add Debian packaging
+
+ -- Arvid <requate@univention.de>  Thu, 28 Apr 2022 18:07:10 +0200
+
+libapache2-mod-oauth2 (3.2.2-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Hans Zandbelt <hans.zandbelt@zmartzone.eu>  Mon, 01 Jan 2015 00:00:00 +0200
